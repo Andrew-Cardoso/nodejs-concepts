@@ -47,7 +47,7 @@
 -   Does not have common APIs and properties like [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) or [console](https://developer.mozilla.org/en-US/docs/Web/API/console).
     -   But all features that are not related to the browser are inside NodeJS as built-in modules, like [console](https://nodejs.org/api/console.html), or even new ones that we can't acess in browser, like the [File System Manager](https://nodejs.org/api/fs.html).
 
-## The lib that powers Node: [Libuv](https://libuv.org/)
+## What powers Node: [Libuv](https://libuv.org/)
 
 -   It handles the **asynchronous I/O** (Input/Output).
 -   It handles the **Event Loop**.

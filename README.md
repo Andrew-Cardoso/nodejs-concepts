@@ -32,7 +32,7 @@
 -   Scalability
 -   Giant ecosystem
 -   Cutting-edge applications
--   Build backend and frontend learning just one language
+-   Fullstack applications with just one language
 
 ## Which cases we **shouldn't** use Node?
 

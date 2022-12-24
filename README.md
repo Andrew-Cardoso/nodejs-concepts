@@ -63,7 +63,7 @@ Details about each one of these in the next section.
 -   Asynchronous by default
     -   Nothing can block the Node process, unlike the synchronous languages, if Node is waiting for something as a database response, it will not wait still. Node will go to the next task, and if there is more waiting, it will go to the next, he never stops working. When the expected response comes, he will go back at it and continue it's job. This behavior, called **asynchronous**, is what makes Node have a really great performance, even being **single threaded**.
 -   Non-blocking
-    -   As told above, the asynchronous behavior of NodeJS is what makes possible to keep **working restlessly**, in synchronous languages, the **thread** will be block while waiting for a third-party response, but in NodeJS, **it will pick another task in the queue** and start it earlier, so it **never stops**, it is **never blocked**.
+    -   As told above, the asynchronous behavior of NodeJS is what makes possible to keep **working restlessly**, in synchronous languages, the **thread** will be blocked while waiting for a third-party response, but in NodeJS, **it will pick another task in the queue** and start it earlier, so it **never stops**, it is **never blocked**.
 -   Event Driven
     -   One of the things that helps Node performance is the **Event Driven Architecture**.
     -   It is, simplifying, a **design based in Events** being executed asynchronously and **callbacks** to execute when these events are done.

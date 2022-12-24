@@ -69,7 +69,7 @@ Details about each one of these in the next section.
     -   It is, simplifying, a **design based in Events** being executed asynchronously and **callbacks** to execute when these events are done.
     -   This cycle of events and callbacks can be **chained almost endlessly**.
 -   Event Queue
-    -   Just a queue where the Inputs/Request are stored. The Event Loop will execute one by one of them in the same order they came in.
+    -   Just a queue where the Inputs/Requests are stored. The Event Loop will execute one by one in the same order they came in.
 -   Worker Thread
     -   When an event in queue can block the thread, event loop transfer it to a worker thread. It can be a call to database, a interaction with file system or any process that **does not rely on Node**.
     -   While these events are not ready, Node will execute the next event in queue, and when it is ready, an **event will be emitted** so the event loop will know.

@@ -105,7 +105,7 @@ Details about each one of these in the next section.
     -   Writing a simple command like `npm install express`, the package called **express** will be installed into our Node Application. And for removing it, you just type `npm uninstall express`.
         -   **Express** is a common package used to create APIs. It is not necessary, we can build it from scratch, but we don't have to, that's the beauty of npm.
 
-    **Note**: Tthere are other package managers that are used a lot nowadays as [Yarn](https://yarnpkg.com/) or [PNPM](https://pnpm.io/). You can choose which you prefer, the libraries they can install came from the same source, there are no packages that are exclusive to one manager.
+    **Note**: There are other package managers that are used a lot nowadays as [Yarn](https://yarnpkg.com/) or [PNPM](https://pnpm.io/). You can choose which you prefer, the libraries they can install came from the same source, there are no packages that are exclusive to one manager.
 
 -   Open source
     -   Node is completely open source, anyone can contribute, write new features, solve bugs and make improvements.

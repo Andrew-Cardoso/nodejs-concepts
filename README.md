@@ -87,7 +87,7 @@ Details about each one of these in the next section.
     4. If there is any asynchronous call, the Event Loop will remove it from the Event Queue and send it to the **Worker Thread** (as explained above).
     5. Once the worker thread is complete, Event Loop put it back into the Event Queue, and the **same steps are repeated until the output is ready**.
 
-    **Note**: Even if the asynchronous response to a third-party is returned instantly, that event will be put into the worker thread and then it will be put at the end if event queue, that's why the synchronous Javascript code will be executed first (unless, of course, the synchronous request came after the asynchronous event was completed and returned to event queue).
+    **Note**: Even if the asynchronous response to a third-party is returned instantly, that event will be put into the worker thread and then it will be put at the end of event queue, that's why the synchronous Javascript code will be executed first (unless, of course, the synchronous request came after the asynchronous event was completed and returned to event queue).
 
 ## More on Node
 

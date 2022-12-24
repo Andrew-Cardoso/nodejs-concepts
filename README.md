@@ -56,7 +56,7 @@
 
 Details about each one of these in the next section.
 
-## Node is:
+## Characteristics
 
 -   Single thread
     -   A **thread** is like a **worker doing his job**. In many languages, there are multiple workers, they are known as **multi-thread languages**, but **Node have only one thread**. Is that better? Not exactly, more workers means more tasks being done. Therefore, is Node slower than the other languages? Not at all. Node was from the beginning built thinking about using only one thread, so it's design works perfectly to increase this thread performance so **Node can compete and even win performance tests against multithreaded languages**.

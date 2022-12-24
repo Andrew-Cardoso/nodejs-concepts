@@ -103,7 +103,7 @@ Details about each one of these in the next section.
     -   NPM was built alongside with Node to be used as a giant library sharing.
         -   A Library is a ready-to-use code created and made available publicly or privately by people or companies to help us develop applications reusing their code so we don't have to reinvent the wheel.
     -   Writing a simple command like `npm install express`, the package called **express** will be installed into our Node Application. And for removing it, you just type `npm uninstall express`.
-        -   **Express** is a common package used to create APIs. It is not necessary, we can use build it from scratch, but we don't have to, that's the beauty of npm.
+        -   **Express** is a common package used to create APIs. It is not necessary, we can build it from scratch, but we don't have to, that's the beauty of npm.
 
     **Note**: Tthere are other package managers that are used a lot nowadays as [Yarn](https://yarnpkg.com/) or [PNPM](https://pnpm.io/). You can choose which you prefer, the libraries they can install came from the same source, there are no packages that are exclusive to one manager.
 
